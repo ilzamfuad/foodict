@@ -1,0 +1,9 @@
+Nama Database : perpustakaan (file sql di folder database mysql)
+Nama Website : gravilib.gravicodev.id
+
+login admin :
+username : admin
+password : admin
+
+login user : user
+username : user

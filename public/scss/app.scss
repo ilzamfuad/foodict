@@ -1,0 +1,223 @@
+/* Variables */
+$body-color: #e6e6e6;
+$color-black: black;
+$color-light-grey: lightgrey;
+$color-white: white;
+$color-blue-primary: #2185D0;
+$color-red-primary: #ff5144;
+
+$zero-value: 0;
+
+/* Hidden */
+.hidden.menu {
+    display: none;
+}
+
+/* Global Part */
+.ui.vertical.stripe {
+    padding: 8em 0em;
+    h3 {
+        font-size: 2em;
+    }
+    .button + h3, p + h3 {
+        margin-top: 3em;
+    }
+    .floated.image {
+        clear: both;
+    }
+    p {
+        font-size: 1.33em;
+    }
+    .horizontal.divider {
+        margin: 3em 0em;
+    }
+}
+
+.ui.square {
+    border-radius: $zero-value;
+    border: $zero-value;
+}
+
+.ui.input input {
+    border-radius: $zero-value;
+}
+
+.ui.action.input input {
+    padding-right: 10.671429em!important;
+}
+
+.ui.action.input>.button, .ui.action.input>.buttons>.button {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.ui.action.input:not([class*="left action"])>.button:last-child {
+    border-radius: $zero-value;
+}
+
+.ui.button, .ui.basic.button {
+    border-radius: $zero-value;
+}
+
+.ui.card, .ui.cards>.card {
+    border: none;
+    border-radius: $zero-value;
+    .image {
+        background: transparent;
+    }
+}
+
+.ui.card, .ui.cards > .card:hover {
+    border: solid 1px $color-red-primary;
+}
+
+.ui.tabular.menu .active.item {
+    border-radius: 0 0 0 0!important;
+}
+
+.ui.menu .dropdown.item .menu {
+    border-radius: 0 0 0 0;
+}
+
+.ui.vertical.menu>.item:last-child {
+    border-radius: 0 0 0 0;
+}
+
+.ui.menu .ui.dropdown .menu>.item:hover, .ui.menu .ui.dropdown .menu>.selected.item {
+    background: rgb(33, 133, 208) !important;
+    color: rgba(255, 255, 255, 1)!important;
+}
+
+.ui.inverted.blue.button, .ui.inverted.blue.buttons .button{
+    box-shadow: 0 0 0 1px $color-red-primary inset!important;
+    color: $color-red-primary;
+}
+
+.ui.inverted.blue.button:hover, .ui.inverted.blue.buttons .button:hover {
+    background-color: $color-red-primary;
+}
+
+.ui.inverted.blue.button:active, .ui.inverted.blue.buttons .button:active {
+    background-color: $color-red-primary;
+}
+
+.ui.inverted.blue.button:focus, .ui.inverted.blue.buttons .button:focus {
+    background-color: $color-red-primary;
+}
+
+.ui.table {
+    border: $zero-value;
+    border-radius: $zero-value;
+}
+
+.ui.table {
+    thead th {
+        background: none;
+        border-bottom: $zero-value;
+    }
+    tfoot th {
+        background: none;
+        border-top: $zero-value;
+    }
+    tr td {
+        border-top: $zero-value;
+    }
+}
+
+.ui.label {
+    border-radius: $zero-value
+}
+
+.ui.form input:not([type]), .ui.form input[type=text], .ui.form input[type=email], .ui.form input[type=search], .ui.form input[type=password], .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=tel], .ui.form input[type=time], .ui.form input[type=file], .ui.form input[type=url], .ui.form input[type=number] {
+    border-radius: $zero-value;
+}
+
+.ui.form input:not([type]):focus, .ui.form input[type=text]:focus, .ui.form input[type=email]:focus, .ui.form input[type=search]:focus, .ui.form input[type=password]:focus, .ui.form input[type=date]:focus, .ui.form input[type=datetime-local]:focus, .ui.form input[type=tel]:focus, .ui.form input[type=time]:focus, .ui.form input[type=file]:focus, .ui.form input[type=url]:focus, .ui.form input[type=number]:focus {
+    border-radius: $zero-value;
+}
+
+.ui.checkbox .box:before, .ui.checkbox label:before {
+    border-radius: $zero-value;
+}
+
+.ui.checkbox input:checked~.box:after, .ui.checkbox input:checked~label:after {
+    color: $color-red-primary;
+}
+
+.ui.grid {
+    margin-top: 10px;
+}
+
+/* body */
+body {
+    background: $body-color;
+    background-color: $body-color;
+}
+
+/* footer */
+footer {
+    width: 100%;
+}
+
+/* Menu */
+#nav-header {
+	margin: $zero-value;
+}
+
+/* Banner */
+#banner {
+    padding: $zero-value;
+    margin-bottom: $zero-value;
+}
+
+#banner-text {
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+}
+
+.center-cropped {
+    object-fit: none;
+    object-position: center;
+    width: 100%;
+    height: 440px;
+}
+
+/* Button */
+#button-login {
+	border-radius: 7px;
+}
+
+#button-lihat {
+    border-radius: 7px;
+}
+
+/* Index */
+#container-index {
+    margin-top: 65px;
+}
+
+#side {
+    margin-left: 30px;
+}
+
+#map {
+    width:100%;
+    height:100%;
+}
+
+#map-container {
+    width: 100%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    height:100%;
+    margin-right: 30px;
+}
+
+#booking {
+    margin: 20px;
+}
+
+#book {
+    margin: 20px;
+}

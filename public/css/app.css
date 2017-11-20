@@ -1,0 +1,165 @@
+/* Variables */
+/* Hidden */
+.hidden.menu {
+  display: none; }
+
+/* Global Part */
+.ui.vertical.stripe {
+  padding: 8em 0em; }
+  .ui.vertical.stripe h3 {
+    font-size: 2em; }
+  .ui.vertical.stripe .button + h3, .ui.vertical.stripe p + h3 {
+    margin-top: 3em; }
+  .ui.vertical.stripe .floated.image {
+    clear: both; }
+  .ui.vertical.stripe p {
+    font-size: 1.33em; }
+  .ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em; }
+
+.ui.square {
+  border-radius: 0;
+  border: 0; }
+
+.ui.input input {
+  border-radius: 0; }
+
+.ui.action.input input {
+  padding-right: 10.67143em !important; }
+
+.ui.action.input > .button, .ui.action.input > .buttons > .button {
+  padding-left: 2em;
+  padding-right: 2em; }
+
+.ui.action.input:not([class*="left action"]) > .button:last-child {
+  border-radius: 0; }
+
+.ui.button, .ui.basic.button {
+  border-radius: 0; }
+
+.ui.card, .ui.cards > .card {
+  border: none;
+  border-radius: 0; }
+  .ui.card .image, .ui.cards > .card .image {
+    background: transparent; }
+
+.ui.card, .ui.cards > .card:hover {
+  border: solid 1px #ff5144; }
+
+.ui.tabular.menu .active.item {
+  border-radius: 0 0 0 0 !important; }
+
+.ui.menu .dropdown.item .menu {
+  border-radius: 0 0 0 0; }
+
+.ui.vertical.menu > .item:last-child {
+  border-radius: 0 0 0 0; }
+
+.ui.menu .ui.dropdown .menu > .item:hover, .ui.menu .ui.dropdown .menu > .selected.item {
+  background: #2185d0 !important;
+  color: white !important; }
+
+.ui.inverted.blue.button, .ui.inverted.blue.buttons .button {
+  box-shadow: 0 0 0 1px #ff5144 inset !important;
+  color: #ff5144; }
+
+.ui.inverted.blue.button:hover, .ui.inverted.blue.buttons .button:hover {
+  background-color: #ff5144; }
+
+.ui.inverted.blue.button:active, .ui.inverted.blue.buttons .button:active {
+  background-color: #ff5144; }
+
+.ui.inverted.blue.button:focus, .ui.inverted.blue.buttons .button:focus {
+  background-color: #ff5144; }
+
+.ui.table {
+  border: 0;
+  border-radius: 0; }
+
+.ui.table thead th {
+  background: none;
+  border-bottom: 0; }
+.ui.table tfoot th {
+  background: none;
+  border-top: 0; }
+.ui.table tr td {
+  border-top: 0; }
+
+.ui.label {
+  border-radius: 0; }
+
+.ui.form input:not([type]), .ui.form input[type=text], .ui.form input[type=email], .ui.form input[type=search], .ui.form input[type=password], .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=tel], .ui.form input[type=time], .ui.form input[type=file], .ui.form input[type=url], .ui.form input[type=number] {
+  border-radius: 0; }
+
+.ui.form input:not([type]):focus, .ui.form input[type=text]:focus, .ui.form input[type=email]:focus, .ui.form input[type=search]:focus, .ui.form input[type=password]:focus, .ui.form input[type=date]:focus, .ui.form input[type=datetime-local]:focus, .ui.form input[type=tel]:focus, .ui.form input[type=time]:focus, .ui.form input[type=file]:focus, .ui.form input[type=url]:focus, .ui.form input[type=number]:focus {
+  border-radius: 0; }
+
+.ui.checkbox .box:before, .ui.checkbox label:before {
+  border-radius: 0; }
+
+.ui.checkbox input:checked ~ .box:after, .ui.checkbox input:checked ~ label:after {
+  color: #ff5144; }
+
+.ui.grid {
+  margin-top: 10px; }
+
+/* body */
+body {
+  background: #e6e6e6;
+  background-color: #e6e6e6; }
+
+/* footer */
+footer {
+  width: 100%; }
+
+/* Menu */
+#nav-header {
+  margin: 0; }
+
+/* Banner */
+#banner {
+  padding: 0;
+  margin-bottom: 0; }
+
+#banner-text {
+  margin-top: 200px;
+  margin-bottom: 200px; }
+
+.center-cropped {
+  object-fit: none;
+  object-position: center;
+  width: 100%;
+  height: 440px; }
+
+/* Button */
+#button-login {
+  border-radius: 7px; }
+
+#button-lihat {
+  border-radius: 7px; }
+
+/* Index */
+#container-index {
+  margin-top: 65px; }
+
+#side {
+  margin-left: 30px; }
+
+#map {
+  width: 100%;
+  height: 100%; }
+
+#map-container {
+  width: 100%;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  height: 100%;
+  margin-right: 30px; }
+
+#booking {
+  margin: 20px; }
+
+#book {
+  margin: 20px; }
+
+/*# sourceMappingURL=app.css.map */
