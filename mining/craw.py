@@ -11,7 +11,7 @@ count = dict()
 
 f = open("sate.txt","r")
 read = f.read()
-f2 = open("stop_list.txt","r")
+f2 = open("stopword.txt","r")
 stop = f2.read()
 # f3 = open("coba2_hasil.txt","w")
 coba = read.split()

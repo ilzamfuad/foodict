@@ -22,7 +22,14 @@
             
           if(isset($_POST["search"])){
             $key = $_POST['search'];
-            $query = mysqli_query($connection,"select distinct judul, berita, url from text where keyword='".$key."' order by jumlah desc");
+            strtolower($key);
+            $split_key = explode(' ', $key);
+            $gabung = "";
+            foreach ($split_key as $value){
+                $gabung = $gabung.'"'.$value.'",';
+            }
+            $gabung = rtrim($gabung,", ");
+            $query = mysqli_query($connection,"select distinct judul, berita, url from text where keyword in (".$gabung.") order by jumlah desc");
             if (mysqli_num_rows($query) > 0) {
                 while ($data = mysqli_fetch_assoc($query)){
                     $string = strip_tags($data['berita']);
