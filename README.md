@@ -1,4 +1,4 @@
 # Foodict
 
-install PyMySQL for mining
-install Sastrawi for mining
+- install PyMySQL for mining
+- install Sastrawi for mining
