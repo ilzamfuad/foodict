@@ -39,7 +39,12 @@
                             $stringCut = substr($string, 0, 500);
                         
                             // make sure it ends in a word so assassinate doesn't become ass...
-                            $string = substr($stringCut, 0, strrpos($stringCut, ' ')).'... <a href="/this/story">Read More</a>'; 
+                            $query_id = mysqli_query($connection,"select id from text where judul = '".$data['judul']."' and berita = '".$data['berita']."' and url = '".$data['url']."' limit 1");
+                            while ($data_id = mysqli_fetch_assoc($query_id)){
+                                $string = substr($stringCut, 0, strrpos($stringCut, ' ')).'... <a href="?p=search-detail&id='.$data_id['id'].'">Read More</a>';     
+                            }
+
+                            
                         }
 
                     echo '<div class="ui card" style="width: 100%;">

@@ -21,8 +21,8 @@
           </div>
         </div>
         <div class="seven wide column">
-          <h4 class="ui inverted header">Gravilib</h4>
-          <p>Tempat Dimana Bisa Booking Buku Perpustakaan Secara Online</p>
+          <h4 class="ui inverted header">FooDict</h4>
+          <p>Tempat Dimana Bisa Mencari Website Makanan Yang Di Inginkan</p>
         </div>
       </div>
     </div>
