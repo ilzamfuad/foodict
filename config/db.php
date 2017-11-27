@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
 $user = "root";
-$pass = "";
-$name = "text_mining";
+$pass = "cumlaude2018";
+$name = "foodict";
  
 $connection = mysqli_connect($host, $user, $pass,$name) or die("Koneksi ke database gagal!");
 if ($connection->connect_error) {
