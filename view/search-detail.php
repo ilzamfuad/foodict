@@ -20,7 +20,7 @@
                     echo '<div class="ui card" style="width: 100%;">
                         <div class="content">
                         <h2 class="header">'.$data['judul'].'</h2>
-                        <div class="meta"></div>
+                        <div class="meta">'.$data['url'].'</div>
                         <div class="description">
                             <p>'.$data['berita'].'</p>
                         </div>

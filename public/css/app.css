@@ -44,7 +44,7 @@
     background: transparent; }
 
 .ui.card, .ui.cards > .card:hover {
-  border: solid 1px #ff5144; }
+  border: solid 1px #7b7979; }
 
 .ui.tabular.menu .active.item {
   border-radius: 0 0 0 0 !important; }

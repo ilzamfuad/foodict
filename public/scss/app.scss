@@ -5,6 +5,7 @@ $color-light-grey: lightgrey;
 $color-white: white;
 $color-blue-primary: #2185D0;
 $color-red-primary: #ff5144;
+$color-gray-primary: #7b7979;
 
 $zero-value: 0;
 
@@ -68,7 +69,7 @@ $zero-value: 0;
 }
 
 .ui.card, .ui.cards > .card:hover {
-    border: solid 1px $color-red-primary;
+    border: solid 1px $color-gray-primary;
 }
 
 .ui.tabular.menu .active.item {

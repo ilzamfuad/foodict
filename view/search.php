@@ -25,6 +25,9 @@
             strtolower($key);
             $split_key = explode(' ', $key);
             $gabung = "";
+            $gabung_judul = "";
+            $gabung_url = "";
+            $gabung_berita = "";
             foreach ($split_key as $value){
                 $gabung = $gabung.'"'.$value.'",';
             }
@@ -43,20 +46,21 @@
                             while ($data_id = mysqli_fetch_assoc($query_id)){
                                 $string = substr($stringCut, 0, strrpos($stringCut, ' ')).'... <a href="?p=search-detail&id='.$data_id['id'].'">Read More</a>';     
                             }
-
+                            
                             
                         }
 
                     echo '<div class="ui card" style="width: 100%;">
                         <div class="content">
                         <a href = "'.$data['url'].'"class="header">'.$data['judul'].'</a>
-                        <div class="meta"></div>
+                        <div class="meta">'.$data['url'].'</div>
                         <div class="description">
                             <p>'.$string.'</p>
                         </div>
                         </div>
                     </div>';
                 }
+
             }else{
                 echo "<h4>Pencarian Keyword tidak ada</h4>";
             }
@@ -69,5 +73,3 @@
         
       </div>
     </div>
-  </div>
-
